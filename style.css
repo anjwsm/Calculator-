@@ -5,7 +5,7 @@
 }
 
 .container{
-    background-color: #ffb178 ;
+    background-color: #5a5856 ;
     width: 100%;
     padding: 50px 80px;
 }
@@ -17,7 +17,7 @@
     width: 55%;
     height: 90%;
     background-color: #243441;
-    box-shadow: -4px -4px 4px 4px  #eec9ae;
+    box-shadow: 0 0  15px  #464645;
     border-radius: 20px;
     box-shadow: gray; 
 }
@@ -28,9 +28,10 @@
     width: 40%;
     height: 50px;
     border: none;
-    color: #cc6e00;
+    color:  #f4f1ee;
     font-size: 20px;
     border-radius: 10px;
+    text-align: right;
 
 }
 .input {
@@ -44,10 +45,11 @@
     border: none;
     border-radius: 10px;
     margin-top: 10%;
-    padding: 10px 15px;
-    color: #cc6e00;
+    padding: 15px 15px;
+    color: #f4f1ee;
     font-size: 20px;
     background-color: #5b5f61;
+    text-align: right;
 }
 
 .buttons{
@@ -58,7 +60,7 @@
 }
 
 button {
-    color: #cc6e00;
+    color:  #f4f1ee;
     background-color: #5b5f61;
     padding: 10px 10px;
     width: 80px;

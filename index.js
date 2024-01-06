@@ -13,11 +13,14 @@ input2.addEventListener("change", (event) => {
   n2 = parseFloat(event.target.value);
 });
 
-// gettign operators
+//Getting operators
 
 const operators = document.querySelectorAll(".buttons  button");
 const selectedOperator = document.getElementById("selectedOperator");
 const resultElement = document.getElementById("result");
+
+
+//Logic for Calculation
 
 for (let i = 0; i < operators.length; i++) {
   operators[i].addEventListener("click", (event) => {
@@ -25,8 +28,7 @@ for (let i = 0; i < operators.length; i++) {
       selectedOperator.innerHTML = event.target.id;
       operator = event.target.id;
     } else {
-      //ans
-
+      
       if (operator == "+") {
         resultElement.innerHTML = n1 + n2;
       }else if( operator == "-"){
